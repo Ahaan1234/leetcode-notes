@@ -1,6 +1,8 @@
 This repo is dedicated to archiving my solutions and attempts at various LeetCode problems, as I try to improve my skills over this Summer and beyond.
 
 Problems Solved:
+- Problem 3; Was harder than expected - initial approach involved keeping track of number of appearances and replacing if it exceeding too. Failed test cases where substring was not the one after the initial window. Had to refactor my code to look at the length in general, reducing reliance on the HashMap length
+
 - Problem 23; Merge K Sorted Lists - Interesting exercise that I had to use buildHeap and downHeap methods for - I enjoyed the intersection of heaps and Linked Lists. Interesting how heaps make things so much more efficient.
 
 - Problem 215; Kth Largest Element in List, Attempt 1: Array of length k that checks all elment (was inneficient). Final solution: Binary Min-Heap of length k, picked root after iterating through original array O(nlogk)
